@@ -1,0 +1,357 @@
+@charset "UTF-8";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #161616;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  position: relative;
+  background-image: url("../Ruchi1.png");
+  background-repeat: no-repeat;
+  background-size: 550px;
+  background-position: right bottom;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: calibri;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 50px;
+  background-color: #fbdcc4;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  padding: 10px 15px;
+  color: #557571;
+  font-size: 17px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #292929;
+  font-family: poppins;
+}
+
+.menu li a:hover, .active {
+  background-color: #292929;
+  color: #FFffff !important;
+  font-weight: 700;
+  transition: all ease 0.4s;
+}
+
+.name {
+  font-family: calibri;
+  width: 500px;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-20%, -50%);
+}
+
+.name p:nth-child(l),
+.name .details {
+  color: #fe7171;
+  font-size: 25px;
+}
+
+.name h1 {
+  font-family: poppins;
+  font-size: 40px;
+  margin: 0px;
+  letter-spacing: 3px;
+  color: #292929;
+}
+
+.cv-btn {
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+  color: #FFffff;
+}
+
+.cv-btn:hover {
+  background-color: #5f6769;
+  transition: all ease 0.5s;
+}
+
+.social {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  display: flex;
+}
+
+.social a {
+  margin: 6px 12px;
+}
+
+.social i {
+  color: #5f6769;
+  font-size: 16px;
+}
+
+.social a:hover i {
+  color: #200f21;
+  transition: all ease 0.5s;
+}
+
+.arrow {
+  align-self: end;
+  width: 50%;
+  height: 15%;
+  margin-bottom: 4em;
+  position: absolute;
+  bottom: 0px;
+  left: -3%;
+  border-right: 1px solid rgba(41, 41, 41, 0.3);
+}
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0px 11px;
+  border-color: #292929 transparent transparent transparent;
+  right: -0.7em;
+  bottom: -2px;
+}
+
+#about {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  position: relative;
+  background-image: url("../Ruchi3.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+}
+
+.about-text {
+  font-family: cursive;
+  width: 50%;
+}
+
+.about-text h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  color: #292929;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #292929;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-text h1, h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.about-text p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #292929;
+}
+
+.about-text button {
+  width: 180px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #4be3ac;
+  position: center;
+}
+
+.about-text button:hover {
+  background-color: #ff7171;
+  transition: all ease 0.3s;
+}
+#skills{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  position: relative;
+}
+.skills-text{
+  font-family: cursive;
+  width: 50%;
+}
+.skills-text h2 {
+  text-align: center;
+  font-size: 4.5rem;
+  color: #292929;
+}
+.table {
+  text-align: center;
+  border: solid black;
+width: 45%;
+display: table;
+  border-collapse: separate;
+  border-spacing: 3px;
+  border-color: gray;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+th {
+  background-color: #158467;
+  color: white;
+}
+ td {
+  border-bottom: 1px solid #d8d3cd;
+}
+tr:hover {
+  background-color: #8fc0a9;
+}
+.skills-text p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #292929;
+}
+#portfolio{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  position: relative;
+}
+.p-heading{
+  font-family: cursive;
+  width: 50%;
+    font-size: 4rem;
+}
+.p-box{
+  background-color: #fce2ce;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
+  position: relative;
+}
+.p-b-container{
+  width: 90%;
+  height: 75vh;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 2fr 2fr 2fr;
+grid-gap: 15px;
+}
+.text-overlay{
+  font-family: cursive;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #9cada4;
+  display: none;
+}
+.text-overlay h2{
+    color: #FFffff;
+  font-size: 2.2rem;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 2px;
+}
+.p-box:hover .text-overlay{
+  display: flex;
+}
+.p-box img{
+  object-fit: cover;
+}
+#contact-btn{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0px;
+
+}
+#contact-btn a {
+  color: #292929;
+  font-size: 1.3rem;
+  font-family: calibri;
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  background-color: #5eaaa8;
+  color:#000000;
+box-shadow: 2px 5px 6px rgba(0,0,0,0.3);
+justify-content: center;
+align-items: center;
+}
+#contact-btn a:hover{
+  background-color: #decdc3;
+  color: #000000;
+  transition: all ease 0.5s;
+  font-weight: 700;
+}
+.contact-text{
+  font-family: cursive;
+  width: 50%;
+}
+.contact-text h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  color: #292929;
+}
+.contact-text h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: calibri;
+  color: #292929;
+  margin:10px;
+  padding: 5px;
+  letter-spacing: 4px;
+}
